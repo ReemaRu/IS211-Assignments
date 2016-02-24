@@ -1,0 +1,178 @@
+/*Header*/
+html{
+  background-color: #f2f2f2;
+}
+header{
+    background-color: #ff9933;
+    font-family: serif;
+    float: left;
+    width: 100%;
+    clear: both;
+    display: inline;
+    height: 20em;
+}
+
+.logo {
+float: left;
+margin-left: 80px;
+margin-top: 24px;
+}
+
+#navigation li {
+	float: left;
+	height: 60px;
+	width: 160px;
+	text-align: center;
+}
+
+#navigation li a {
+	color: #78450d;
+	display: inline-block;
+	font: 16px 'OpenSans-Semibold';
+	padding: 36px 10px 0;
+	text-decoration: none;
+	text-shadow: 0 1px #fbc78e;
+}
+
+/*Body*/
+
+section{
+  height: 500px;
+  font-family: Palatino, serif;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.img {
+  height: 350px;
+  width: 600px;
+  position: relative;
+  top: -200px;
+  left: -100px;
+}
+.text {
+  background-color: #1a0d00;
+  height: 350px;
+  width: 300px;
+  text-align: center;
+  color: #ff9933;
+  position: relative;
+  left: 650px;
+  bottom: 570px;
+  font-family: Palatino, serif;
+}
+.text h2 {
+  color: white;
+}
+
+#textline{
+  position: relative;
+  bottom: 550px;
+  left: 300px;
+}
+#wholetext {
+  position: relative;
+  bottom: 500px;
+  margin-left: 100px;
+}
+.lefttext {
+text-align: left;
+display: inline-block;
+width: 500px;
+}
+.rightext {
+text-align: left;
+display: inline-block;
+width: 500px;
+float: right;
+}
+
+.bottomtext{
+  text-align: center;
+  position: relative;
+  bottom: 450px;
+  color: #ff9933 ;
+}
+.photos {
+  float: left;
+  display: inline-block;
+}
+.nav {
+  position: relative;
+  margin-left: 140px;
+  bottom: 400px;
+}
+.nav p {
+  margin-left: 25px;
+  font-size: 14px;
+}
+.nav li {
+  list-style: none;
+}
+.nav h3 {
+  text-align: center;
+  color: #ff9933;
+}
+.firstnav {
+display: inline-block;
+}
+.secondnav {
+display: inline-block;
+}
+.thirdnav {
+display: inline-block;
+}
+.nav img {
+  margin-left: 100px;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  list-style: none;
+  float: left;
+}
+#copyright {
+  color: #cccccc;
+  position: relative;
+  top: 50px;
+  right: 50px;
+  text-align: center;
+  display: block;
+}
+
+.footernav {
+  text-align: left;
+  float: left;
+}
+.footernav li {
+  margin-left: 70px;
+  font-size: 14px;
+    list-style: none;
+    color: #ff9933;
+}
+.footer1 {
+display: inline-block;
+}
+.footer2 {
+display: inline-block;
+}
+.footer3 {
+display: inline-block;
+}
+.footer4 {
+display: inline-block;
+}
+
+.footernav h3 {
+  color: white;
+  position: relative;
+  right: 10px;
+}
